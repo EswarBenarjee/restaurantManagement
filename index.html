@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <style>
+        body {
+            background: powderblue;
+        }
+        h1 {
+            margin-top: 20vh;
+            color: blue;
+        }
+        form {
+            padding: 50px 20px;
+            background-color: white;
+            border-radius: 25px;
+            height: 20vh;
+            width: 20vw;
+        }
+        form input {
+            float: right;
+            width: 13vw;
+        }
+        form #submit {
+            float: left;
+            margin-left: 6vw;
+            width: 8vw;
+        }
+    </style>
+</head>
+<body>
+    <center>
+        <div>
+            <h1>Login</h1>
+            <form action="index.php" method="post">
+                <label for="mail">Mail ID:</label>
+                <input type="text" id="mail" name="mail" placeholder="Ex.: eswar.bane2002.India@gmail.com">
+
+                <br><br><br>
+                <label for="pswd">Password:</label>
+                <input type="password" id="password" name="pwd" placeholder="Enter your password">
+
+                <br><br><br>
+                <input type="submit" id="submit" placeholder="Submit">
+            </form>
+        </div>
+    </center>
+</body>
+</html>
